@@ -9,7 +9,7 @@ import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 const Introduction = () => {
   return (
-    <section id='page0' className='introduction'>
+    <section id='page0' className='introduction container-intro'>
 
         <div className="intro">
             <h1><span>Hello, my name is</span></h1>

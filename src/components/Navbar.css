@@ -37,6 +37,11 @@
     opacity: 0.7;
 }
 
+.container-nav{
+    margin: auto;
+    width: 100%;
+  }
+
 /* responsive */
 @media (max-width:650px) {
     .navbar li{

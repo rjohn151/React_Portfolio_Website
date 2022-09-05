@@ -9,6 +9,11 @@
 
 }
 
+.container-intro{
+    margin: auto;
+    width: 55%;
+  }
+
 .introduction span {
     color: #63FFDA;
 }
@@ -135,4 +140,11 @@ p{
         display: none;
     }
 }
+
+@media (max-width:545) {
+    .intro-p {
+        font-size: 12px;
+    }
+}
+
 

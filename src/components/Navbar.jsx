@@ -7,7 +7,7 @@ import resume from './RamoneJohnson_FrontEnd.pdf'
 
 const Navbar = () => {
     return(
-        <nav className='navbar'>
+        <nav className='navbar container-nav'  >
             <ul>
                 <li>
                     <Link to='page0' smooth={true}>About</Link>

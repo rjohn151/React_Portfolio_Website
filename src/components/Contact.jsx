@@ -6,7 +6,7 @@ import { faLocationDot, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-
 const Contact = () => {
   return (
     <>
-    <section id='page3' className='contact'>
+    <section id='page3' className='contact contact-exp1'>
             <h1>Get in Touch</h1>
             <div class="bottom-line"></div>
 
@@ -34,7 +34,7 @@ const Contact = () => {
 
       </section>
 
-<section className='contact-form'>
+<section className='contact-form contact-exp'>
 <h1>Contact Form</h1>
     <div class="bottom-line"></div>
 
