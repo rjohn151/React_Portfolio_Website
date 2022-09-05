@@ -1,0 +1,48 @@
+.navbar {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #ccd6f6;
+    position: fixed;
+    top: 0px;  
+    width: 55%;
+    border-radius: 10px;
+    z-index: 2;
+    margin-top: 5px;
+    /* left: auto */
+}
+.navbar > ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar > ul > li {
+    margin-left: 10px;
+}
+.navbar > ul > li:hover {
+    color: #64FFDA;
+}
+
+.download-btn{
+    background: transparent;
+    color: #64FFDA;
+    border-radius: 3px;
+    padding: 2px;
+    border: 1px #64FFDA solid;
+    cursor: pointer;
+}
+
+.download-btn:hover{
+    opacity: 0.7;
+}
+
+/* responsive */
+@media (max-width:650px) {
+    .navbar li{
+        font-size: 10px;
+    }
+    .download-btn {
+        font-size: 10px;
+    }
+}

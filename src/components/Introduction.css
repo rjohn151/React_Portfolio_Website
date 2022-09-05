@@ -1,0 +1,138 @@
+.introduction{
+    color: #8892B0;
+    /* margin-top: 155px; */
+    /* margin-bottom: 100px; */
+    display: flex;
+    gap: 20px;
+    height: 100vh; 
+    align-items: center;
+
+}
+
+.introduction span {
+    color: #63FFDA;
+}
+
+.introduction h2 {
+    font-size: 73px;
+    color: #CCD6F6;
+}
+
+
+.introduction p {
+    line-height: 1.5rem;
+}
+
+.profile-pic {
+    width: 200px;
+    border-radius: 3px;
+    border: #63FFDA solid 2px;
+}
+
+.projects-btn{
+    border: #63FFDA solid 2px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.projects-btn:hover{
+    opacity: 0.7;
+}
+
+.see-work{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #63FFDA;
+}
+
+.skills-list{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.skills-list > ul{
+    list-style: none;
+    text-decoration: none;
+    color: #63FFDA;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.intro-pic1{
+    text-align: center;
+}
+
+.skills-list ul li, .skills-list h3, .improvement {
+    animation: slideleft 800ms ease-in ;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translateX(-500px);
+    }
+}
+
+.intro h1, .intro h2 {
+    animation: slidedown 800ms ease-in ;
+}
+
+@keyframes slidedown {
+    0% {
+        transform: translateY(-500px);
+    }
+}
+
+.intro-p, .intro-pic1, .intro-pic2 {
+    animation: transitionIn 3s ease-in;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        /* transform: rotateX(-10deg); */
+    }
+    to {
+        opacity: 1;
+        /* transform: rotateX(0); */
+    }
+}
+
+.see-work {
+    animation: slideup 800ms ease-in ;
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(500px);
+    }
+}
+
+
+/* responsive */
+@media (max-width:300px) {
+    .introduction{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width:1470px) {
+    .intro-pic1{
+        display: none;
+        
+    }
+}
+
+@media (max-width:1470px) {
+    .intro-pic2{
+        display: none;
+    }
+}
+
