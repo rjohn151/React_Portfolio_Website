@@ -140,5 +140,12 @@
         margin: auto;
         width: 70%;
       }
+      
+}
+
+@media (max-width:450px) {
+    .timeline-section > h1 {
+        margin-top: 40px;
+    }
 }
 
