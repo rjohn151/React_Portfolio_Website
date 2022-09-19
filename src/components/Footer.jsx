@@ -8,23 +8,28 @@ const Footer = () => {
     <footer className='footer'>
         
         <div className="social-icons">
+
             <a href="https://github.com/rjohn151"
                 className='github'
+                target="_blank" rel="noreferrer noopener"
             >
             <FontAwesomeIcon size='2x' icon={faGithub}/>
             </a>
             <a href="https://facebook.com"
                 className='facebook'
+                target="_blank" rel="noreferrer noopener"
             >
             <FontAwesomeIcon size='2x' icon={faFacebook}/>
             </a>
             <a href="https://www.instagram.com/ramoneeej/"
-                className='instagram'    
+                className='instagram'
+                target="_blank" rel="noreferrer noopener"    
             >
             <FontAwesomeIcon size='2x' icon={faInstagram}/>
             </a>
             <a href="https://linkedin.com/in/ramone-johnson"
                 className='linkedin'
+                target="_blank" rel="noreferrer noopener"
             >
             <FontAwesomeIcon size='2x' icon={faLinkedin}/>
             </a>

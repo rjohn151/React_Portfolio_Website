@@ -27,8 +27,18 @@
 
 .site {
     width: 400px;
+    height: 220px;
     border-radius: 8px;
 }
+
+.site-3 {
+    width: 400px;
+    height: 220px;
+    border-radius: 8px;
+    filter: blur(5px);
+}
+
+
 
 /* Responsiveness */
 @media (max-width:450px) {
